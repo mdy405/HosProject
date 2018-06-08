@@ -6,6 +6,7 @@ import './App.css';
 import createComponent from './components/createComponent';
 import editComponent from './components/editComponent';
 import indexComponent from './components/indexComponent';
+import homeComponent from './components/homeComponent';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
           <hr />
           </nav>
           <Switch>
+              <Route exact path='/' component={homeComponent} />
               <Route exact path='/create' component={createComponent} />
               <Route path='/edit/:id' component={editComponent} />
               <Route path='/index' component={indexComponent} />
