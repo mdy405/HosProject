@@ -135,14 +135,13 @@ export default class homeComponent extends Component {
 				                  <li><i className="fa fa-check"></i>  Unlimited  access</li>
 				                </ul>
 			                <a href="#" className="btn btn-success">SignUp  For Admin</a>
+
 			              </article>
 			            </div>
 
 		             </div>
 		       
 	               	</div>
-
-
 	               	 <div role="tabpanel" className="tab-pane" id="profile">
 				        <div className="row">
 
@@ -165,6 +164,7 @@ export default class homeComponent extends Component {
 				                </div>
 				                <div className="form-group">
 				                  <div className="checkbox">
+
 				                    <label>
 				                      <input type="checkbox"/> Please accept the terms and conditions to proceed with your request.
 				                    </label>
@@ -175,6 +175,7 @@ export default class homeComponent extends Component {
 				                </div>
 				              </form>
 				              <footer role="signup" className="text-center">
+
 				                <ul>
 				                  <li>
 				                    <a href="#">Terms of Use</a>
@@ -187,7 +188,6 @@ export default class homeComponent extends Component {
 
 				            </article>
 				          </div>
-
 				          <div className="col-sm-6">
 				            <article role="manufacturer"  className="text-center">
 				              <header>
@@ -202,7 +202,6 @@ export default class homeComponent extends Component {
 				                <li><i className="fa fa-check"></i>   Unlimited Site Access</li>
 				                <li><i className="fa fa-check"></i>   Unlimited Site Access</li>
 				              </ul>
-
 				              <a href="#" className="btn btn-success">SignUp  For User</a>
 				            </article>
 				          </div>
